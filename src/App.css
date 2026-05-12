@@ -10,10 +10,16 @@
   }
 }
 body {
-  background: linear-gradient(180deg, #2b0e10 0%, #07080d 100%) fixed;
+  background: linear-gradient(
+      160deg,
+      hsl(335, 51%, 15%) 0%,
+      #2b0e10 30%,
+      hsl(229, 27%, 10%) 100%
+    )
+    fixed;
   overflow: hidden;
 }
 
 .card-wrapper {
-  scrollbar-color: #fa5c53 #00000000;
+  scrollbar-color: #fa5c53 #3a2129;
 }
